@@ -1,0 +1,29 @@
+# Setup
+title:               Robert Bermejo's Blog
+tagline:             'Robert Bermejo Blog'
+description:         'Blog about Azure & .Net'
+titlesidebar:        'Blog in the cloud'
+url:                 https://www.robertbermejo.com
+baseurl:             /
+paginate:            5
+permalink:           pretty
+locale:              es_es
+name:                Robert Bermejo
+icon:                '/public/apple-touch-icon-precomposed.png'
+
+# About/contact
+author:
+  name:              Robert Bermejo
+  url:               https://www.robertbermejo.com
+  email:             bermejoblasco@live.com
+  twitter:           https://twitter.com/robertbemejo
+  profile_github:    https://github.com/bermejoblasco
+  profile_linkedin:  https://www.linkedin.com/in/robert-bermejo-blasco-75a73b2a
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y

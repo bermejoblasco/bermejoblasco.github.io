@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
+  {{ content }}
+</div>
+<hr style="border-color: #ac4142;"/>
+<h2>Si te parece interesante, ¡compártelo!</h2>
+<ul class="share">
+  <li><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}@robertbemejo" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i> Twitter </a></li>
+  <li><a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i> Facebook </a></li>
+  <li><a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Linkedlin"><i class="fa fa-linkedin"></i> Linkdin </a></li>
+</ul>
+
+<div class="related">
+  <h2>Igual te interesa</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<script type="text/javascript">
+var links = document.querySelectorAll('.post a');  
+for (var i = 0, length = links.length; i < length; i++) {  
+    if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+    }
+}
+</script>
