@@ -1,6 +1,6 @@
 ---
 title: 'El bueno el feo y el malo'
-author: fernandoescolar
+author: robertbermejo
 post_date: 2020-04-27 00:00:00
 layout: post
 categories: video
