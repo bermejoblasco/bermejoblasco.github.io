@@ -31,6 +31,11 @@ layout: default
   </ul>
 </div>
 
+{% if site.disqus.shortname %}
+  {% include comments.html %}
+{% endif %}
+
+
 <script type="text/javascript">
 var links = document.querySelectorAll('.post a');  
 for (var i = 0, length = links.length; i < length; i++) {  
