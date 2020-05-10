@@ -121,7 +121,7 @@ Para crear una key ssh en window 10, se debe lanzar el siguiente command y segui
 ssh-keygen -t rsa -b 4096
 ```  
 El resultado es el siguiente:  
-![Create SSH Key in Windows 10](/public/images/2020/05/ssh.png)  
+![Create SSH Key in Windows 10](/public/images/2020/05/ssh.PNG)  
 El resultado son dos ficheros, el que en este caso nos interesa es el que tiene la extensión .pub que es el que añadimos en las variables.  
 
 ### Output.tf  
@@ -159,13 +159,13 @@ terraform plan
 terraform apply
 ```  
 Ahora ya tendríamos creado nuestro cluster y si vamos al portar veríamos nuestro AKS creado:  
-![AKS creado en el portal](/public/images/2020/05/kubernetes.png)  
+![AKS creado en el portal](/public/images/2020/05/kubernetes.PNG)  
 
 Ahora con kubectl podemos conectarnos a nuestro cluster y ver el nodo creado:  
 ``` 
  kubectl get nodes
 ```  
-![AKS kubectl get nodes](/public/images/2020/05/kubectlaks.png) 
+![AKS kubectl get nodes](/public/images/2020/05/kubectlaks.PNG) 
  
 # Conclusión  
 Debemos exigirnos tener nuestra infraestructura como código, ya no solo para poder desplegarla fácilmente o modificarla, sino también para poder tenerla versionada como si fuera código.  
