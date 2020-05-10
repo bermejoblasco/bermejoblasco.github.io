@@ -11,7 +11,7 @@ Cuando empiezas un proyecto una de las cosas que siempre debes crear es la infra
 Una buena práctica es tener tu **Infraestructura como código**, <!--break-->de esta forma podéis tener vuestra infraestructura versionada y automatizada.
 
 ## Terraform  
-[Terraform](https://www.terraform.io/intro/index.html) es una herramienta para construir, cambiar y versionar tú infraestructura de forma segura y eficiente.  
+[Terraform](https://www.terraform.io/intro/index.html) es una herramienta para construir, cambiar y versionar tú infraestructura de forma segura y eficpiente.  
 Hay otras herramientas como [Pulimi](https://www.pulumi.com/) o [ARM](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview) entre otras, pero particularmente me gusta **Terraform** por su nomenclatura y la forma de escribirla.
 
 ## Estructura  
