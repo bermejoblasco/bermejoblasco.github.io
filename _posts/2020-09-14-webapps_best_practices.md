@@ -4,7 +4,8 @@ post_date: 2020-09-14 00:00:00
 author: rbermejo
 layout: post
 comments: true
----
+--- 
+
 
 Cuando usamos servicios *Platform as a Service* (**PaaS**) en el cloud, estos servicios son administrados por el proveedor.<!--break-->  
 Que un servicio sea administrado por el proveedor *cloud* tiene ventajas y desventajas. Mi opinión es que tiene más ventajas que desventajas, pero necesitas tener conocimiento sobre que está pasando en los servidores que alojan tus servicios, y sobre que tienes control y sobre que no. 
@@ -70,7 +71,7 @@ Usar Slots nos da los siguientes beneficios:
 
 Para finalizar dos puntos más interesantes:
 1.	Activar *Application Insights* --> De esta forma podremos tener todla la información que está pasando tanto en nuestra aplicación como a nivel de infraestructura: número peticiones, tiempo respuesta, cpu consumida, memoria….
-2.	Activar *Health Check* --> Está opción está en *preview* todavía, pero nos permite configurar un *ednpoint* y el *App Service* realizará el *health check* sobre las instancias y cuando encuentre un error en una de ellas no le enviará tráfico. Podéis ver más información aquí: https://github.com/projectkudu/kudu/wiki/Health-Check-(Preview)
+2.	Activar *Health Check* --> Está opción está en *preview* todavía, pero nos permite configurar un *ednpoint* y el *App Service* realizará el *health check* sobre las instancias y cuando encuentre un error en una de ellas no le enviará tráfico. Podéis ver más información [aquí](https://github.com/projectkudu/kudu/wiki/Health-Check-(Preview))
 
 Source:
 https://azure.github.io/AppService/2020/05/15/Robust-Apps-for-the-cloud.html
