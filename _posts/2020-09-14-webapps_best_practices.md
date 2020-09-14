@@ -1,5 +1,5 @@
 ---
-title: Azure Web apps best practices
+title: Azure Web Apps best practices
 post_date: 2020-09-14 00:00:00
 author: rbermejo
 layout: post
