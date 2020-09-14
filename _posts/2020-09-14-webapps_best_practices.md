@@ -2,7 +2,8 @@
 title: Azure Webapps best practices
 post_date: 2020-09-14 00:00:00
 author: rbermejo
-layout: posts
+layout: post
+comments: true
 ---
 
 Cuando usamos servicios *Platform as a Service* (**PaaS**) en el cloud, estos servicios son administrados por el proveedor.<!--break-->  

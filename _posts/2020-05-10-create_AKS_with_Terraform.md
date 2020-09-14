@@ -3,6 +3,7 @@ title: Creando un cluster de AKS con Terraform
 post_date: 2020-05-10 00:00:00
 author: rbermejo
 layout: post
+comments: true
 ---
 
 # El Origen
